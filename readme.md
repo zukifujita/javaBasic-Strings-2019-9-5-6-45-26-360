@@ -16,9 +16,17 @@ Each repository contains a gradle java project with a number of unit tests. The 
 The 4 questions are:
 
 1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+
+The two object strings should be equal, by using Optional<boolean> of modified string = original string; Using unicode escape; Using string builder.
 1. Why the test failed at first?
+
+There are no value in Optional boolean, and some of the expected string are null.
 1. Why you corrected the test that way?
+
+Since there are values from the two object strings, it should pass if it is equal already, depending on what logic should be done.
 1. Do you have further questions on this knowledge point?
+
+None.
 
 ## Example
 
